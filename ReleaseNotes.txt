@@ -1,0 +1,317 @@
+---------------------------------------------------------
+Version 3.0.0 (3 Nov 2023)
+---------------------------------------------------------
+
+Donated source code to public domain.
+
+---------------------------------------------------------
+Version 2.2.0 (3 Feb 2018)
+---------------------------------------------------------
+
+[New] Select individual tables with SQL dumps.
+[New] SmartData™ is now distributed as a free application.
+
+---------------------------------------------------------
+Version 2.1.5 (19 Oct 2017)
+---------------------------------------------------------
+
+[Fix] Fixed icon of Windows 64-bit executable.
+[Enhancement] Improved selection highlighting in query editor.
+[Enhancement] Recompiled binaries optimized for speed.
+[New] SmartData™ is now available on Raspberry Pi.
+
+---------------------------------------------------------
+Version 2.1.4 (26 Sep 2017)
+---------------------------------------------------------
+
+[Enhancement] AUTO_INCREMENT is now added to INTEGER primary keys of MySQL schema dump.
+
+---------------------------------------------------------
+Version 2.1.3 (12 Sep 2017)
+---------------------------------------------------------
+
+[Fix] Running CREATE queries now updates database tree correctly.
+[Fix] Wheel scroll now works with query editor.
+[Fix] Query text can no longer be scrolled past last line
+[Fix] Query text vertical scrollbar now resets correctly when loading new query.
+[Fix] Fixed issue where screen freezes when announcements are displayed.
+[Fix] Query history window now resizes correctly.
+[Enhancement] Changed query history icon.
+[New] Table columns can now be sorted again by clicking on their headers.
+[New] SQL dumps in SQLite format.
+[New] SQL dumps in MySQL format.
+
+---------------------------------------------------------
+Version 2.1.2 (1 Sep 2017)
+---------------------------------------------------------
+
+[Fix] Chart icon now only enabled when a table is selected.
+[Enhancement] Improved wheel scrolling.
+[Enhancement] Improved loading speed of table list.
+[Enhancement] Website link in About Window is now clickable.
+[Enhancement] Added activation button to license view.
+[Enhancement] Added .db extension to open database file dialog.
+[Enhancement] Added file extensions to create database file dialog.
+[New] Licenses can now be activated by signing in.
+[New] List indices.
+[New] Create index.
+[New] Delete index.
+
+---------------------------------------------------------
+Version 2.1.1 (15 Aug 2017)
+---------------------------------------------------------
+
+[Fix] Fixed greyed out "Create Table" icon on toolbar.
+[Fix] Encodings are now preserved correctly for UTF8 CSV file imports.
+[Enhancement] CSV and JSON exports can now be done with the free version of SmartData™.
+[Enhancement] Double clicking a row in the query history window now runs the selected query.
+[Enhancement] Added JSON and CSV filters to export SaveAs dialogs respectively.
+[Enhancement] Added SQLITE filter to connection file dialog.
+[New] Export table as JSON array.
+
+---------------------------------------------------------
+Version 2.1.0 (14 Aug 2017)
+---------------------------------------------------------
+
+[Fix] Added back notification to commit changes before editing table.
+[New] Added update menu item.
+[New] Plot line charts with data.
+
+---------------------------------------------------------
+Version 2.0.17 (1 Aug 2017)
+---------------------------------------------------------
+
+[Fix] Fixed runtime error when closing database while changing table name.
+[Fix] NULL values are now correctly exported as null values with CSV exports.
+[Fix] Linux: Fixed encryption algorithm text being cut off on Create Database window.
+[Fix] Affected row count is now cleared on rollback.
+[Enhancement] BLOB values are now exported as Base64 encoded values with CSV exports.
+[Enhancement] Significantly improved scrolling speed of table rows.
+[New] Switched to a tree view for the database.
+
+---------------------------------------------------------
+Version 2.0.16 (27 July 2017)
+---------------------------------------------------------
+
+[Fix] Fixed selected text highlighting that does not clear.
+[Fix] Double clicking in query editor now works on Linux again.
+[Fix] Linux: Fixed encryption algorithm text being cut off on Create Database window.
+[Fix] Fixed About window title caption.
+[Fix] Syntax editor now returns text in a UTF8 encoding.
+[Fix] Horizontal scrollbar position is now preserved.
+[Enhancement] Changed syntax highlighting to Solarized colour scheme.
+[Enhancement] Re-branded application exclusively as SmartData™.
+[Enhancement] A new row can now be added by double clicking on the last row.
+[New] Query editor can now be navigated with Ctrl+Left/Right Arrow.
+
+---------------------------------------------------------
+Version 2.0.15 (19 July 2017)
+---------------------------------------------------------
+
+[Fix] Boolean values can now be updated.
+[Fix] On update errors cell values are now changed back to previous value.
+[Fix] New row inserts are now performed independent from column type.
+[Fix] Column types are no longer exported as part of header in CSV exports.
+[Fix] Fixed Shift selection of rows.
+[Fix] Fixed page flash when inserting new rows.
+[Fix] Ctrl+A now correctly selects all rows.
+[Fix] Fixed positioning of SmartData™ logo.
+[Fix] Fixed issue where key down scrolls rows off screen.
+[Enhancment] Major refactoring in support of upcoming features.
+[Enhancement] Slightly reduced row heights.
+[Enhancement] Created more subtle highlighting for BLOB values.
+[Enhancement] Columns in CSV import preview can now be resized.
+[Enhancement] Row filter is now honoured in CSV export.
+[Enhancement] Increased minimum width limit of row listbox.
+[Enhancement] Increased wheel row scroll step.
+[Enhancement] Only fully visible rows are now displayed.
+[New] Syntax highlighting.
+
+---------------------------------------------------------
+Version 2.0.14 (5 July 2017)
+---------------------------------------------------------
+
+[Fix] Added error trapping for loading of recent items.
+[Fix] Database create window is now closed immediately upon creation.
+[Fix] "Add column" text now fits on button (OS X).
+[Fix] Fixed runtime error when clearing BLOB.
+[Fix] Changing text case is now detected correctly as a database change.
+[Fix] Fixed issue where row selection is cleared on scroll.
+[Fix] Fixed issue with row scrolling when using arrow keys and PgUp and PgDown.
+[Fix] Row filter is now honoured in CSV export.
+[Fix] Fixed issue with CSV export of selected rows.
+[Enhancement] Changed "Open" to "Connect" in file menu.
+[Enhancement] Table name is now highlighted when table editor opens.
+[Enhancement] Columns can now be resized in table editor.
+[Enhancement] Column name receives focus when adding a new column in the table editor.
+[Enhancement] An untitled column is no longer added automatically when creating a new table.
+[Enhancement] Multiline SQL queries are now shown as single lines in SQL history explorer.
+[Enhancement] Increased datagrid row height.
+[Enhancement] Moved query toolbar back to middle of window.
+[Enhancement] Tables are now listed in alphabetical order.
+[Enhancement] Query result columns are now autosized.
+[Enhancement] Removed column types from CSV heading titles.
+[New] Added ability to remove queries from query history.
+[New] Row count is now displayed above datagrid.
+
+---------------------------------------------------------
+Version 2.0.13 (1 July 2017)
+---------------------------------------------------------
+
+[Fix] Scrollbar is now hidden when no is table selected.
+[Fix] Fixed issue with determining of unique constraints.
+[Fix] Disabled column sorting on data grid.
+[Fix] Database is no longer marked as changed by error query runs.
+[Fix] Fixed issue where an error is reported with queries containing semicolons.
+[Fix] Fixed issue where scrollbar does not get reset to the first position.
+[Fix] Restoring window no longer gets stuck on maximum screen size.
+[Fix] License expiry time is now reported correctly.
+[Enhancement] Schema can now only be changed when all existing data changes are committed.
+[Enhancement] Changed "Open" to "Connect".
+[Enhancement] Changed "Save" to "Commit".
+[Enhancement] A rollback is now automatically performed with errors on table changes.
+[Enhancement] Row filter is now preserved during query runs.
+[Enhancement] Moved query toolbar icons to left.
+[Enhancement] Increased SQL history item limit to 2000 unique queries.
+[Enhancement] SQL history is now shared instantly between SmartData™ instances.
+[Enhancement] Columns are now autosized on first load.
+[Enhancement] Custom column widths are now preserved for duration of connection.
+[New] Added query results label that reports rows affected.
+[New] Pressing Enter or Down Arrow in Row Filter changes focus to the row listbox.
+[New] Recent connections can now be accessed directly from toolbar.
+[New] Built in 30 days free trial period.
+
+---------------------------------------------------------
+Version 2.0.12 (26 Jun 2017)
+---------------------------------------------------------
+
+[Fix] Changes are now only updated once when a cell looses focus.
+[Fix] Fixed runtime error when clicking outside of column range.
+[Fix] Fixed application icon on 64-bit installs.
+[Enhancement] Improved loading speed of table rows.
+[Enhancement] Improved loading speed of query results.
+[Enhancement] Cell can now be edited by double clicking on it.
+[Enhancement] Table now automatically scrolls when inserting new rows.
+[Enhancement] 32-bit/64-bit are now indicated in caption and installer.
+[New] Added grid lines to tables.
+[New] Added refresh button to quickly reload table.
+
+---------------------------------------------------------
+Version 2.0.11 (21 Jun 2017)
+---------------------------------------------------------
+
+[Fix] Implemented event handler for unhandled exceptions.
+[Fix] Arrows now indicated clearly that query toolbar is draggable.
+[Fix] Fixed issue where query editor covers whole window.
+[Fix] Moved About menu to the application menu on OS X.
+[Enhancement] Removed flicker when resizing layout.
+[Enhancement] Last window position is now only saved once in Close event.
+[Enhancement] Removed all code that could possibly maximise the main window.
+[Enhancement] Created more subtle highlighting for NULL values.
+[New] Database file path is now shown in caption.
+[New] Row filter.
+[New] Run queries using the Ctrl+Enter shortcut.
+[New] Windows 64-bit installer.
+
+---------------------------------------------------------
+Version 2.0.10 (19 Jun 2017)
+---------------------------------------------------------
+
+[Fix] Saved window state now maximizes to fullscreen mode instead of display size.
+[Fix] Fixed cell highlighting issues with NVARCHAR, VARCHAR, VARYING CHAR, NCHAR and NATIVE CHAR types.
+[Enhancement] Changed menu item to "Send Feedback".
+[Enhancement] Improved the opening of databases from the application menu.
+[New] Open recent files.
+[New] Added contextual menu to SQL console to cut, copy, paste and delete.
+[New] Added edit menu to main menu.
+
+---------------------------------------------------------
+Version 2.0.9 (16 Jun 2017)
+---------------------------------------------------------
+
+[Fix] Fixed missing release notes on OS X.
+[Fix] Fixed missing close button on release notes window on OS X.
+[Fix] Menu items on application menu are no longer grayed out on OS X.
+[Fix] Fixed "Database file doesn't exist in the specified location" error on OS X.
+[New] Previous window state is now restored on relaunch.
+
+---------------------------------------------------------
+Version 2.0.8 (13 Jun 2017)
+---------------------------------------------------------
+
+[Fix] Fixed combobox sizes on Linux.
+
+---------------------------------------------------------
+Version 2.0.7 (12 Jun 2017)
+---------------------------------------------------------
+
+[Fix] Fixed entering of license key on Linux.
+[Fix] Linux computer name is now retrieved correctly.
+
+---------------------------------------------------------
+Version 2.0.6 (9 Jun 2017)
+---------------------------------------------------------
+
+[Fix] Fixed feedback issues on OS X.
+[Fix] Fixed runtime error caused by SELECT statement.
+
+---------------------------------------------------------
+Version 2.0.5 (8 Jun 2017)
+---------------------------------------------------------
+
+[Fix] Fixed runtime errors with startup on OS X.
+[New] Added scrollbar to hex viewer.
+
+---------------------------------------------------------
+Version 2.0.4 (20 May 2017)
+---------------------------------------------------------
+
+[Fix] Fixed runtime error when opening <NULL> BLOB.
+[Fix] Fixed incorrect column names when inserting new rows.
+[Fix] Fixed inserting of rows with INTEGER primary keys.
+[New] Added support for variety of type affinities.
+[New] Clear BLOB.
+
+---------------------------------------------------------
+Version 2.0.3 (18 May 2017)
+---------------------------------------------------------
+
+[Fix] <NULL> now refreshes correctly as <BLOB> after change.
+[Enhancement] Improved mouse click mechanism for opening BLOB editor.
+[New] Replaced textarea with hex viewer in BLOB editor.
+[New] Import files with BLOB editor.
+[New] Export files with BLOB editor.
+[New] View pictures with BLOB editor.
+
+---------------------------------------------------------
+Version 2.0.2 (10 May 2017)
+---------------------------------------------------------
+
+[Fix] Saving now requires a license.
+[Fix] Fixed runtime error when adding columns to existing tables.
+[Enhancement] Blobs are now indicated clearly.
+[Enhancement] Added column types to header.
+[Enhancement] Rollbacks can now be done without a license.
+[New] Implemented product announcements.
+[New] Blob editor.
+
+---------------------------------------------------------
+Version 2.0.1 (9 Mar 2017)
+---------------------------------------------------------
+
+[Fix] Fixed incorrect closing of database when cancelling.
+[Enhancement] Numeric columns are now sorted numerically.
+
+---------------------------------------------------------
+Version 2.0.0 (8 Mar 2017)
+---------------------------------------------------------
+
+[New] First commercial release.
+[New] Open existing SQLite databases.
+[New] Create new SQLite databases.
+[New] Add, drop and update tables.
+[New] Insert and delete table rows.
+[New] Run SQL queries.
+[New] Replay previos queries.
+[New] Run queries from files.
+[New] Import/export CSV files.
